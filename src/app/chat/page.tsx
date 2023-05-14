@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import axios from '../../hooks/axios.hook';
 // import axios from 'axios';
-function page(props:number) {
+function page() {
 
   useEffect(()=>{
     axios.get('/view').then(res=>{
