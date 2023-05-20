@@ -6,7 +6,7 @@ function page() {
 
   useEffect(()=>{
     axios.get('/view').then(res=>{
-      console.log(res)
+      console.log(res.data)
     })
   } ,[])
   return (
